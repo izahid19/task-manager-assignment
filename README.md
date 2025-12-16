@@ -2,6 +2,11 @@
 
 A modern, real-time task management application built with the MERN stack (MongoDB, Express, React, Node.js). Features include secure authentication, real-time updates via Socket.io, and a responsive UI with GSAP animations.
 
+## 🌐 Deployment
+
+- **Frontend Application**: [https://taskmanager-frontend-6ku9.vercel.app/](https://taskmanager-frontend-6ku9.vercel.app/)
+- **Backend API**: [https://taskmanager-backend-production-3581.up.railway.app/](https://taskmanager-backend-production-3581.up.railway.app/)
+
 ---
 
 ## 🚀 Setup Instructions
