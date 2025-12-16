@@ -27,7 +27,6 @@ const statusColors: Record<TaskStatus, string> = {
 
 export function TaskCard({ task, onEdit, onDelete, showActions = true }: TaskCardProps) {
   const assignee = typeof task.assignedToId === 'object' ? task.assignedToId : null;
-  const creator = typeof task.creatorId === 'object' ? task.creatorId : null;
   const dueDate = new Date(task.dueDate);
   const overdue = isOverdue(task.dueDate) && task.status !== 'Completed';
 

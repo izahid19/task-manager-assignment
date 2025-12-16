@@ -69,12 +69,11 @@ export function RegisterPage() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
   } = useForm<RegisterFormData>({
     resolver: zodResolver(registerSchema),
   });
 
-  const email = watch('email');
+
 
   const onSubmit = async (data: RegisterFormData) => {
     setError(null);

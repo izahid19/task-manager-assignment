@@ -48,12 +48,11 @@ export function ForgotPasswordPage() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
   } = useForm<ForgotPasswordFormData>({
     resolver: zodResolver(forgotPasswordSchema),
   });
 
-  const email = watch('email');
+
 
   const onSubmit = async (data: ForgotPasswordFormData) => {
     setError(null);

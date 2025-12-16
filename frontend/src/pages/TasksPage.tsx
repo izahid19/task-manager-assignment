@@ -16,7 +16,7 @@ import {
   DialogDescription,
   DialogFooter,
 } from '@/components/ui';
-import type { Task, TaskFilters, TaskPriority, TaskStatus } from '@/types';
+import type { Task, TaskFilters } from '@/types';
 import gsap from 'gsap';
 
 export function TasksPage() {
